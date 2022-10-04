@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block titulo %}Formulario{% endblock titulo %}
+{% block cuerpo %}
+
+<form style="margin: 10px 10px;" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn btn-secondary type="submit">Guardar</button>
+    <a href="{% url 'index' %}" class="btn btn-primary">Volver</a>
+</form>
+
+
+
+{% endblock cuerpo %}

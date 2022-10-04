@@ -1,0 +1,25 @@
+crear super user
+python3 manage.py createsuperuser
+
+direccion del proyecto
+
+cd C:\Users\Usuario\Desktop\Proyecto martin\proyecto_muni\django_init
+
+activar el modo test
+
+cd C:\Users\Usuario\Desktop\Proyecto martin\proyecto_muni\Scripts
+
+activate (activa el modo de test)
+
+comando para crear el archivo dentro de migration 
+python3 manage.py makemigrations
+
+comando para aplicarlo en la base de datos 
+python3 manage.py migrate
+
+para correr el servidor
+python3 manage.py runserver
+
+acceso admin:
+Usuario: nico
+Contraseña nicolas11
